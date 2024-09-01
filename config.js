@@ -11,15 +11,16 @@ global.location = "Abuja, Nigeria";
 global.mongodb = process.env.MONGODB_URI || "";
 global.allowJids = process.env.ALLOW_JID || "null";
 global.blockJids = process.env.BLOCK_JID || "null";
-global.DATABASE_URL = process.env.DATABASE_URL || "";
+global.DATABASE_URL = process.env.DATABASE_URL || "mongodb+srv://akash:akash007@cluster0.4cxuy.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
+";
 global.timezone = process.env.TZ || process.env.TIME_ZONE || "Africa/Lagos";
 global.github = process.env.GITHUB || "https://github.com/DeeCeeXxx/Queen_Anita-V2";
 global.gurl = process.env.GURL || "https://whatsapp.com/channel/0029VaeRru3ADTOEKPCPom0L";
 global.website = process.env.GURL || "https://whatsapp.com/channel/0029VaeRru3ADTOEKPCPom0L";
 global.THUMB_IMAGE = process.env.THUMB_IMAGE || process.env.IMAGE || "https://telegra.ph/file/17c8ba84a7761eed633f6.jpg";
 global.devs = "https://t.me/deecee_x";
-global.sudo = process.env.SUDO || "919064560840";
-global.owner = process.env.OWNER_NUMBER || "919064560840";
+global.sudo = process.env.SUDO || "916296940383";
+global.owner = process.env.OWNER_NUMBER || "916296940383";
 global.style = process.env.STYLE || "3";
 global.gdbye = process.env.GOODBYE || "false";
 global.wlcm = process.env.WELCOME || "false";
@@ -35,7 +36,7 @@ global.readmessagefrom = process.env.READ_MESSAGE_FROM || "";
 global.read_status = process.env.AUTO_READ_STATUS || "true";
 global.save_status = process.env.AUTO_SAVE_STATUS || "false";
 global.save_status_from = process.env.SAVE_STATUS_FROM || "";
-global.read_status_from = process.env.READ_STATUS_FROM || "";
+global.read_status_from = process.env.READ_STATUS_FROM || "916296940383";
 
 global.api_smd = "https://api-smd-1.vercel.app";
 global.scan = "https://secret-garden-43998-4daad95d4561.herokuapp.com/";
